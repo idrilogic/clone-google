@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerContainer {
+    position: relative;
+    font-size: 16px;
+}
+
+.header {
+    position: relative;
+    float: right;
+    left: 0%;
+    margin: 1% 2%;
+}
+
+.dots {
+    display: flex;
+}
+
+.image {
+    margin-left: 10px;
+}
+
+.fas {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 0.5px black dotted;
+    padding: 8px;
+}
+
+.fas:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 0.5px black dotted;
+}
+
+.pad {
+    padding: 8px;
+}
+
+.links a{
+    margin: auto 4px ;
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover{
+    margin: auto 4px ;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.left {
+    float: left;
+}
+
+.dot {
+    background-color: rgb(95, 95, 95);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin: 2px 1.5px;
+}
+
+.bord:hover {
+    background-color: rgba(95, 95, 95, 0.192);
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+
+.middleContent {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 250px 0;
+}
+
+.google  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.google img {
+    filter: black(100%);
+}
+
+.input {
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+
+.input input {
+    width: 500px;
+    border-radius: 25px;
+    border: 0.5px #ddd solid;
+    font-size: 18px;
+    padding: 10px 18px;
+    outline: 0;
+}
+
+
+.input input:focus-visible {
+    background-color: rgb(236, 236, 236);
+    width: 500px;
+    border-radius: 25px;
+    border: 1px #aaa solid;
+    padding: 10px 18px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btns button, .btns input {
+    margin: 5px;
+    padding: 10px 18px;
+    outline: 0;
+    border: 0.5px solid white;
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btns button:hover, .btns input:hover {
+    outline: 0;
+    border: 0.5px solid rgb(155, 155, 155);
+    background-color: rgb(228, 228, 228);
+}
